@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+car1 = Car.new(car_make: "Honda", car_model: "Civic", year: 1998)
+car1.save
+
+car2 = Car.new(car_make: "Toyota", car_model: "Tacoma", year: 2017)
+car2.save
